@@ -11,6 +11,9 @@ This repository will host the official implementation of **MFE-IDD**, a lightwei
 - 🏭 Well-adapted to industrial applications involving high-resolution digital radiography and digitized film
 
 ## Installation
+**Step 1:** Create a new environment
+
+```bash
 conda create -n MFE-IDD python=3.8
 conda activate MFE-IDD
 pip install torch==1.13.1 torchvision==0.14.1
@@ -19,6 +22,7 @@ mim install mmcv==2.0.0
 mim install mmdet==3.1.0
 pip install timm==0.4.12
 pip install -r requirements.txt
+```
 
 ## License
 This project is licensed under the **Apache License 2.0**.
